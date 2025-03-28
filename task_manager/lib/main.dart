@@ -9,9 +9,10 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // Initialize Back4App with Application ID and Client Key
   await Parse().initialize(
-    'APPLICATION_ID', // Replace with your Back4App Application ID
+    'X2YRNKyygP5IVE48yLgUErckpkBqFuPGqxo2g73m', // Replace with your Back4App Application ID
     'https://parseapi.back4app.com',
-    clientKey: 'CLIENT_KEY', // Replace with your Back4App Client Key
+    clientKey:
+        'z4sWti5PjFi1AJ62Mel2kXI2A2HRwRVagZBYmAKz', // Replace with your Back4App Client Key
     autoSendSessionId: true,
   );
   runApp(MyApp());
